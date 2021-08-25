@@ -14,8 +14,10 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.13.5",
-    "nodemon": "^2.0.12",
     "validater": "^1.0.5",
     "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }

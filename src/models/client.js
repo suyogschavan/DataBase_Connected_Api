@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const validator = require("validator");
 
-const studentSchema = new mongoose.Schema({
+const clientSchema = new mongoose.Schema({
     name : {
         type:String,
         required:true,
@@ -39,6 +39,6 @@ const studentSchema = new mongoose.Schema({
 })
 
 // new connection 
-const Student = new mongoose.model('Student', studentSchema);
+const Client = new mongoose.model('Client', clientSchema);
 
-module.exports = Student;
+module.exports = Client;
